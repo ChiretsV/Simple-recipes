@@ -1,0 +1,14 @@
+.recipes-block{
+  background-image: linear-gradient(to right, #ffffff, #fdf6fc, #ffebf1, #ffe1de, #fcdbc7, #fcdbc7, #fcdbc7, #fcdbc7, #ffe1de, #ffebf1, #fdf6fc, #ffffff);
+    width: 100%;
+    padding: 40px 20px;
+  }
+
+  .recipes-block .container{
+    width: 80vw;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
